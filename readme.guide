@@ -1,0 +1,20 @@
+install conda
+
+create conda environment
+conda create -n mymodel python=3.8.5
+
+conda activate mymodel
+
+Install OpenCV
+conda install -c conda-forge opencv
+
+
+pip install torchvision
+pip install pandas
+pip install keras
+pip install tensorflow
+
+
+
+ python train.py -e 25 -l 1e-3 -ls mse -d /Volumes/Part1/Users/dwimiyanto/Projects/mogiz-seameo/dataset/foto-mogiz/resized_128/ -r 0
+ 
